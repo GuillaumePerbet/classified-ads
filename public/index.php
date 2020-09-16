@@ -1,11 +1,10 @@
 <?php
 
-// define application parameters
-define("BASE_PATH","");
-define("SERVER_URI",$_SERVER["REQUEST_SCHEME"]."://".$_SERVER["HTTP_HOST"].BASE_PATH);
-
 // autoload
 require_once dirname(dirname(__FILE__))."/vendor/autoload.php";
+
+// define server URI
+define("SERVER_URI",$_SERVER["REQUEST_SCHEME"]."://".$_SERVER["HTTP_HOST"].BASE_PATH);
 
 // namespace
 use \Ads\Ad as Ad;

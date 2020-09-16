@@ -1,10 +1,20 @@
 <?php
 
-define("EMAIL","adminMail@foo.bar");
-define("PASS","adminPassword");
-define("KEY","secretCryptKey");
-define("HOST","databaseHost");
-define("USER","databaseUser");
-define("PASSWORD","databasePassword");
-define("NAME","databaseTableName");
-define("CAPTCHA","captchaKey");
+// email parameters
+define("EMAIL","");
+define("PASS","");
+
+// crypt key
+define("KEY","");
+
+// database parameters
+define("HOST","");
+define("USER","");
+define("PASSWORD","");
+define("NAME","");
+
+// captcha key
+define("CAPTCHA","");
+
+// base path parameter
+define("BASE_PATH","");
